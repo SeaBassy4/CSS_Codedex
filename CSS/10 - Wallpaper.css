@@ -1,0 +1,16 @@
+#outer{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#inner{
+  width: 80px;
+  height: 100px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F02%2F6602-050-E4B2B3A9%2FBottlenose-dolphins.jpg&f=1&nofb=1&ipt=6aa0a159be3d55578452c2dbd2f59a18352560d5a87ab5fee86b1bdbcc613fc5");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

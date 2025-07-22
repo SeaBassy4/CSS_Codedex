@@ -1,0 +1,8 @@
+h1 {
+  border: 3px dashed black;
+  padding: 10px;
+}
+
+p {
+  font: 800 12px Arial, serif;
+}
