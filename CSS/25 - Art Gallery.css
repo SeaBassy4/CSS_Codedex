@@ -1,0 +1,45 @@
+h1{
+  background-color: skyblue;
+  display: block;
+  margin: 0px;
+  padding: 4px;
+  position: static;
+  text-align: center;
+  font-family: Times New Roman, Serif;
+  border: 2px solid;
+}
+p{
+  margin: 0px;
+  background-color: lightgray;
+  padding: 5px;
+  padding-left: 30px;
+  position: fixed;
+  display: inline;
+  width: 100%;
+  border: dotted black;
+}
+.gallery-item{
+  border: solid 3px;
+  width: 12em;
+}
+#item-1{
+  position: absolute;
+  top: 95px;
+}
+#item-2{
+  position: sticky;
+  left: 230px;
+  top: 20px;
+  z-index: 1;
+}
+#item-3{
+  position: fixed;
+  z-index:2;
+  right: 247px;
+  top: 260px;
+}
+#item-4{
+  position: relative;
+  z-index: 3;
+  top: 300px;
+}
